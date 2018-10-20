@@ -1,0 +1,19 @@
+﻿  main.c
+  number.c
+e:\github\cprimerplusdemo\project3\number.c(31): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 2 拥有了类型“__int64”
+  e:\github\cprimerplusdemo\project3\number.c(31): note: 请考虑在格式字符串中使用“%lld”
+  e:\github\cprimerplusdemo\project3\number.c(31): note: 请考虑在格式字符串中使用“%Id”
+  e:\github\cprimerplusdemo\project3\number.c(31): note: 请考虑在格式字符串中使用“%I64d”
+e:\github\cprimerplusdemo\project3\number.c(36): warning C4305: “初始化”: 从“int”到“char”截断
+e:\github\cprimerplusdemo\project3\number.c(48): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+  e:\github\cprimerplusdemo\project3\number.c(48): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  e:\github\cprimerplusdemo\project3\number.c(48): note: 缺失的可变参数 2 为格式字符串“%c”所需
+  e:\github\cprimerplusdemo\project3\number.c(48): note: 此参数用作缓冲区大小
+e:\github\cprimerplusdemo\project3\number.c(72): warning C4305: “=”: 从“double”到“float”截断
+e:\github\cprimerplusdemo\project3\number.c(73): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\github\cprimerplusdemo\project3\number.c(123): warning C4129: “,”: 不可识别的字符转义序列
+  stringAndIO.c
+e:\github\cprimerplusdemo\project3\stringandio.c(15): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\github\cprimerplusdemo\project3\stringandio.c(17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  Project3.vcxproj -> E:\GitHub\CPrimerPlusDemo\x64\Debug\CPrimerPlusDemo.exe
