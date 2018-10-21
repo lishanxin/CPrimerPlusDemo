@@ -24,12 +24,24 @@
     <ClCompile Include="stringAndIO.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="controler.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charIOOperation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="number.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="stringAndIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="controler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="charIOOperation.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

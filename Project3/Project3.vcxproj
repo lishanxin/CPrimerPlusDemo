@@ -118,11 +118,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="charIOOperation.c" />
+    <ClCompile Include="controler.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="number.c" />
     <ClCompile Include="stringAndIO.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="charIOOperation.h" />
+    <ClInclude Include="controler.h" />
     <ClInclude Include="number.h" />
     <ClInclude Include="stringAndIO.h" />
   </ItemGroup>
