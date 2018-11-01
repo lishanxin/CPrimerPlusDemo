@@ -16,3 +16,19 @@ int cypher2(void)//替换输入的字母，非字母字符保持不变
 	putchar(ch); // 显示换行符
 	return 0;
 }
+
+int loccheck(void) {//查看变量被存储在何处
+	int pooh = 2, bah = 5;
+	printf("In loccheck(), pooh = %d and &pooh = %p\n", pooh, &pooh);
+	printf("In locckeck(), bah = %d and &bah = %p\n", bah, &bah);
+
+	mikado(pooh);
+	return 0;
+}
+
+int mikado(int bah) {
+	int pooh = 10;
+	printf("In mikado(), pooh = %d and &pooh = %p\n", pooh, &pooh);
+	printf("In mikado(), bah = %d and &bah = %p\n", bah, &bah);
+	return 0;
+}

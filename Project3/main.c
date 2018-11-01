@@ -3,9 +3,10 @@
 #include "stringAndIO.h"
 #include "controler.h"
 #include "charIOOperation.h"
-int main(void) {
-	printf("Hello wooO0rld!!!\n");
-	echo();
+#include "stringAndMethod.h"
+#include "storeTypeAndManage.h"
+int main(int argc, char *argv[]) {
+	countFile(argc, argv);
 	getchar();
 	return 0;
 }

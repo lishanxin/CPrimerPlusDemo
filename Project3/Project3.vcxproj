@@ -118,17 +118,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arrayAndPointer.c" />
     <ClCompile Include="charIOOperation.c" />
     <ClCompile Include="controler.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="number.c" />
+    <ClCompile Include="storeTypeAndManage.c" />
     <ClCompile Include="stringAndIO.c" />
+    <ClCompile Include="stringAndMethod.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="arrayAndPointer.h" />
     <ClInclude Include="charIOOperation.h" />
     <ClInclude Include="controler.h" />
     <ClInclude Include="number.h" />
+    <ClInclude Include="storeTypeAndManage.h" />
     <ClInclude Include="stringAndIO.h" />
+    <ClInclude Include="stringAndMethod.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

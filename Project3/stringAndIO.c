@@ -204,3 +204,10 @@ int convertType() {
 	return 0;
 
 }
+
+int test10_7() {
+	int zi[2][3] = { {1,2,3},{4,5,6} };
+	printf("zi value: %p, &zi: %p", zi, &zi);
+	printf("zi[0] value: %p, &zi[0]: %p", zi[0], &zi[0]);
+	return 0;
+}

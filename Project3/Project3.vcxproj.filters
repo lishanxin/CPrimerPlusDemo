@@ -30,6 +30,15 @@
     <ClCompile Include="charIOOperation.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="arrayAndPointer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stringAndMethod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="storeTypeAndManage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="number.h">
@@ -42,6 +51,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="charIOOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayAndPointer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stringAndMethod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="storeTypeAndManage.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
